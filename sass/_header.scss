@@ -16,7 +16,7 @@ header{
 }
 %focusMenu{
 	background-color: transparent !important;
-	color: $primary-color !important;
+	color: #608c8c !important;
 	&:after{
 		width: 30%;
 	}
@@ -40,7 +40,7 @@ header{
 				width: 0px;
 				position: absolute;
 				@include transition(all 0.3s ease-in-out);
-				background-color: $primary-color;
+				background-color:$primary-color;
 			}
 			&:hover{
 				color: $primary-color !important;
@@ -455,7 +455,7 @@ header{
 		> li{
 			> a{
 				color: $black-color !important;
-				
+
 				&:hover{
 					color: $primary-color !important;
 					border-color: $primary-color
@@ -468,7 +468,7 @@ header{
 				}
 			}
 		}
-	} 
+	}
 }
 /*=== 3.3 DARK HEADER ===*/
 .darkHeader{
@@ -510,6 +510,5 @@ header{
 				}
 			}
 		}
-	} 
+	}
 }
-

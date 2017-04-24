@@ -1236,7 +1236,7 @@ header {
 
 .navbar-nav > li.open a, .navbar-nav > li.open a:hover, .navbar-nav > li.open a:focus {
   background-color: transparent !important;
-  color: #ff891e !important; }
+  color: #608c8c !important; }
   .navbar-nav > li.open a:after, .navbar-nav > li.open a:hover:after, .navbar-nav > li.open a:focus:after {
     width: 30%; }
 
@@ -1922,7 +1922,6 @@ header {
     border-bottom: 1px solid #6a6b6c;
     text-transform: uppercase; }
   .gridResize .form__tel:focus {
-    background: white;
     border-radius: 5px;
     padding-left: 5px;
     padding-bottom: 2px; }
@@ -1950,6 +1949,9 @@ header {
     margin-top: 20px;
     background: none;
     border: none; }
+
+.page-footer .form__select {
+  margin-left: 0; }
 
 /*=== 5.3 WHITE SECTION ===*/
 .destinations {
@@ -2301,7 +2303,7 @@ header {
 
 .navbar-nav > li.open a, .navbar-nav > li.open a:hover, .navbar-nav > li.open a:focus {
   background-color: transparent !important;
-  color: #ff891e !important; }
+  color: #608c8c !important; }
   .navbar-nav > li.open a:after, .navbar-nav > li.open a:hover:after, .navbar-nav > li.open a:focus:after {
     width: 30%; }
 
@@ -3788,6 +3790,18 @@ header {
     font-size: 10px;
     color: #67686a;
     margin-right: 10px; }
+
+.goods__price-block {
+  padding-top: 5rem; }
+
+.goods__tabs {
+  margin-top: 2rem; }
+
+.vacancies__text {
+  margin-top: 2rem; }
+
+.vacancies__block {
+  padding-bottom: 6rem; }
 
 /*================= 8. BLOG ==================*/
 /*================= 8.1 BLOG POST LIST ITEM ==================*/

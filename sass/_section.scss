@@ -84,7 +84,7 @@
 		text-transform: uppercase;
 	}
 	.form__tel:focus {
-		background: white;
+
 		border-radius: 5px;
 		padding-left: 5px;
 		padding-bottom: 2px;
@@ -108,9 +108,10 @@
 			border: none;
 		}
 }
-.form__btn {
-
+.page-footer .form__select {
+   margin-left: 0;
 }
+
 /*=== 5.3 WHITE SECTION ===*/
 .destinations{
 	background-color: $secondary-color;

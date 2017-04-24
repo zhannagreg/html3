@@ -26,7 +26,7 @@
 	}
 	.media-body{
 		position: relative;
-		
+
 		height: 100%;
 		overflow: visible;
 		@include mobile-all{
@@ -70,7 +70,7 @@
 				float: left;
 				padding-right: $base;
 				margin-right: $base;
-				@include add-border(1px, lighten(desaturate(adjust-hue($primary-color, -28.5333), 100.0000), 31.1765), right); 
+				@include add-border(1px, lighten(desaturate(adjust-hue($primary-color, -28.5333), 100.0000), 31.1765), right);
 				text-transform: uppercase;
 				font-size: $base-xs*6+1px;
 				line-height:  $base-xs*7+1px;
@@ -170,7 +170,7 @@
 		width: 100%;
 		display: block;
 		color: $white-color;
-		border-color: $white-color; 
+		border-color: $white-color;
 		&:hover{
 			background-color: $white-color;
 			border-color: $white-color;
@@ -240,7 +240,7 @@
 						font-size: $base-xs*7;
 					}
 				}
-				
+
 			}
 			.bookingDetails{
 				min-height: $base*36;
@@ -268,9 +268,9 @@
 		background-image: none;
 		@include opacity(1);
 	}
-	.carousel-control .glyphicon-menu-left, 
-	.carousel-control .glyphicon-menu-right, 
-	.carousel-control .icon-next, 
+	.carousel-control .glyphicon-menu-left,
+	.carousel-control .glyphicon-menu-right,
+	.carousel-control .icon-next,
 	.carousel-control .icon-prev{
 		position: absolute;
 		top: 50%;
@@ -288,12 +288,12 @@
 			display: inline-block;
 		}
 	}
-	.carousel-control .icon-prev, 
+	.carousel-control .icon-prev,
 	.carousel-control .glyphicon-menu-left {
 	    margin-left: 0;
 	    left: $base*4;
 	}
-	.carousel-control .icon-next, 
+	.carousel-control .icon-next,
 	.carousel-control .glyphicon-menu-right {
 	    right: $base*4;
 	    margin-right: 0;
@@ -392,7 +392,7 @@
 		> a.panel-heading{
 			display: block;
 		}
-	} 
+	}
 	.panel-group .panel+.panel{
 		margin-top: $base*3;
 	}
@@ -465,9 +465,9 @@
 			display: block;
 		}
 	}
-	.carousel-control .glyphicon-menu-left, 
-	.carousel-control .glyphicon-menu-right, 
-	.carousel-control .icon-next, 
+	.carousel-control .glyphicon-menu-left,
+	.carousel-control .glyphicon-menu-right,
+	.carousel-control .icon-next,
 	.carousel-control .icon-prev{
 		background-color: rgba($white-color, .35);
 	}
@@ -492,7 +492,7 @@
 				}
 			}
 		}
-	} 
+	}
 }
 .countryTitle{
 	.carousel-inner{
@@ -510,7 +510,7 @@
 	position: relative;
 	img{
 		width: 100%;
-		height: 100%; 
+		height: 100%;
 	}
 	.cityWeather{
 		position: absolute;
@@ -536,7 +536,7 @@
 						font-size: $base*9;
 						color: $white-color;
 						line-height: $base*9;
-						margin: 0 0 $base*5 0; 
+						margin: 0 0 $base*5 0;
 					}
 					p{
 						font-size: $base*4;
@@ -634,8 +634,8 @@
 			}
 		}
 	}
-	.nav-tabs>li.active>a, 
-	.nav-tabs>li.active>a:focus, 
+	.nav-tabs>li.active>a,
+	.nav-tabs>li.active>a:focus,
 	.nav-tabs>li.active>a:hover{
 		border: none;
 		@include add-border($base-xs+1px, $primary-color, bottom);
@@ -693,4 +693,15 @@
 		}
 	}
 }
-
+.goods__price-block {
+	padding-top: 5rem;
+}
+.goods__tabs {
+	margin-top: 2rem;
+}
+.vacancies__text {
+	margin-top: 2rem;
+}
+.vacancies__block {
+	padding-bottom: 6rem;
+}
