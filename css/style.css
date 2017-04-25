@@ -1553,14 +1553,7 @@ header {
 
 .navbar-brand {
   float: left;
-  background-image: url("../img/logo.png");
-  background-position: 15px 19px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../img/logo.png");
-  background-position: 15px 19px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: black;
   width: 235px;
   height: 95px;
   background-color: transparent;
@@ -1575,6 +1568,45 @@ header {
 
 .static .navbar-right {
   margin-right: -30px !important; }
+
+.navbar-header__mylogo {
+  display: inline-block;
+  width: 25rem;
+  height: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rationale', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px 2px #ff8400;
+  padding-top: 2rem;
+  padding-left: 2rem; }
+
+.navbar__nav-items .navbar-header__mylogo {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rationale', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal; }
+
+.page-footer .navbar-header__mylogo {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal; }
+
+.page-footer__text-logo1 {
+  margin: 0;
+  margin-top: -3rem;
+  padding: 0; }
+
+.btn__price {
+  padding: 0 1rem; }
 
 /*=== 3.2 LIGHT HEADER ===*/
 .lightHeader {
@@ -1593,20 +1625,18 @@ header {
   @media (min-width: 768px) {
     .lightHeader {
       height: 95px; } }
-  .lightHeader .navbar-brand {
-    background-image: url("../img/logo-color-big.png");
-    background-position: 15px 19px;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    @media (max-width: 767px) {
-      .lightHeader .navbar-brand {
-        background-size: 152px 40px !important;
-        margin-top: 0;
-        height: 83px; } }
-    @media (min-width: 768px) {
-      .lightHeader .navbar-brand {
-        background-size: 203px 54px !important;
-        height: 95px; } }
+  @media (max-width: 767px) {
+    .lightHeader .navbar-brand {
+      background-size: 152px 40px !important;
+      margin-top: 0;
+      height: 83px; } }
+  @media (min-width: 768px) {
+    .lightHeader .navbar-brand {
+      background-size: 203px 54px !important;
+      height: 95px; } }
+  .lightHeader .navbar-header__mylogo {
+    color: #ff8400;
+    text-shadow: -2px 2px grey; }
   .lightHeader .navbar-nav > li > a {
     color: #000000 !important; }
     .lightHeader .navbar-nav > li > a:hover {
@@ -2620,14 +2650,7 @@ header {
 
 .navbar-brand {
   float: left;
-  background-image: url("../img/logo.png");
-  background-position: 15px 19px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../img/logo.png");
-  background-position: 15px 19px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: black;
   width: 235px;
   height: 95px;
   background-color: transparent;
@@ -2642,6 +2665,45 @@ header {
 
 .static .navbar-right {
   margin-right: -30px !important; }
+
+.navbar-header__mylogo {
+  display: inline-block;
+  width: 25rem;
+  height: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rationale', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px 2px #ff8400;
+  padding-top: 2rem;
+  padding-left: 2rem; }
+
+.navbar__nav-items .navbar-header__mylogo {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rationale', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal; }
+
+.page-footer .navbar-header__mylogo {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal; }
+
+.page-footer__text-logo1 {
+  margin: 0;
+  margin-top: -3rem;
+  padding: 0; }
+
+.btn__price {
+  padding: 0 1rem; }
 
 /*=== 3.2 LIGHT HEADER ===*/
 .lightHeader {
@@ -2660,20 +2722,18 @@ header {
   @media (min-width: 768px) {
     .lightHeader {
       height: 95px; } }
-  .lightHeader .navbar-brand {
-    background-image: url("../img/logo-color-big.png");
-    background-position: 15px 19px;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    @media (max-width: 767px) {
-      .lightHeader .navbar-brand {
-        background-size: 152px 40px !important;
-        margin-top: 0;
-        height: 83px; } }
-    @media (min-width: 768px) {
-      .lightHeader .navbar-brand {
-        background-size: 203px 54px !important;
-        height: 95px; } }
+  @media (max-width: 767px) {
+    .lightHeader .navbar-brand {
+      background-size: 152px 40px !important;
+      margin-top: 0;
+      height: 83px; } }
+  @media (min-width: 768px) {
+    .lightHeader .navbar-brand {
+      background-size: 203px 54px !important;
+      height: 95px; } }
+  .lightHeader .navbar-header__mylogo {
+    color: #ff8400;
+    text-shadow: -2px 2px grey; }
   .lightHeader .navbar-nav > li > a {
     color: #000000 !important; }
     .lightHeader .navbar-nav > li > a:hover {

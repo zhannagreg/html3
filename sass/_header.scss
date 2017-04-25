@@ -408,8 +408,7 @@ header{
 }
 .navbar-brand {
   float: left;
-  @include background('../img/logo.png', $base*3 $base-xs*9+1px);
-  @include background('../img/logo.png', $base*3 $base-xs*9+1px);
+	background: black;
   @include size($base*47, $base-xs*47+1px, transparent);
   @include add-custom-padding($base-xs*12, $base*3, $base-xs*12, $base*3);
   @include mobile-all{
@@ -427,7 +426,48 @@ header{
 .static .navbar-right{
 	margin-right:-30px !important;
 }
+.navbar-header__mylogo {
+	display: inline-block;
+	width: 25rem;
+	height: 6rem;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Rationale', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	text-shadow: -2px 2px #ff8400;
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+.navbar__nav-items .navbar-header__mylogo {
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Rationale', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: normal;
+}
 
+.page-footer  .navbar-header__mylogo {
+	padding: 0;
+	margin: 0;
+
+
+	font-size: 28px;
+	font-weight: bold;
+	font-style: normal;
+}
+.page-footer__text-logo1 {
+	margin: 0;
+	margin-top: -3rem;
+	padding: 0;
+}
+.btn__price {
+	padding: 0 1rem;
+}
 /*=== 3.2 LIGHT HEADER ===*/
 .lightHeader{
 	@include transition(all 0.3s ease-in-out);
@@ -440,8 +480,9 @@ header{
 		height: $base*19;
 	}
 	.navbar-brand {
-	  @include background('../img/logo-color-big.png', $base*3 $base-xs*9+1px);
+
 	  @include mobile-all{
+
 	  	background-size: $base-xs*76 $base-xs*20 !important;
 	  	margin-top: 0;
 	  	height: $base-xs*41+1px;
@@ -451,6 +492,10 @@ header{
 	  	height: $base*19;
 	  }
 	}
+.navbar-header__mylogo {
+	color: #ff8400;
+	text-shadow: -2px 2px grey;
+}
 	.navbar-nav{
 		> li{
 			> a{
